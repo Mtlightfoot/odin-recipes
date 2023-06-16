@@ -18,9 +18,15 @@ img.cooking-fire {
 }
 
 img.deer-cooking {
-    width: 200px;
+    width: 250px;
     display: inline-block;
-    margin: 50px;
+    margin: 0px;
+}
+
+img.silo {
+    width: 250px;
+    display: inline-block;
+    margin: 0px;
 }
 
 img.chained {
@@ -37,7 +43,7 @@ h1 {
 h2 {
     color: #F91724;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 img.cult-of-the-lamb {
@@ -55,6 +61,7 @@ a {
     background-color: rgb(231, 197, 86);   
     display: block;
     width: 250px;
+    height:65px;
 }
 
 .border {
@@ -64,7 +71,21 @@ a {
 }
 
 .homemade-crispy-hash-browns {
-    border: 5px solid white;
+    border: 5px solid #FCFAEF;
     display: inline-block;
     width: 265px;
+    margin-right: 20px;
+}
+
+.sazerac-cocktail {
+    border: 5px solid #FCFAEF;
+    display: inline-block;
+    width: 265px;
+}
+
+.fresh-tomato-soup {
+    border: 5px solid #FCFAEF;
+    display: inline-block;
+    width: 265px;
+    margin-left: 20px;
 }
