@@ -2,30 +2,32 @@
     line-height: 1.5;
     background-color: #FCF6DF;
     text-align: center;
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img.cookbook {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+img.cooking-fire {
+    width: 250px;
+    display: inline-block;
+    margin: 0px;
+}
+
+img.deer-cooking {
+    width: 200px;
+    display: inline-block;
+    margin: 50px;
 }
 
 img.chained {
     width: 55%;
-    display: block;
-    margin: auto;
-    bottom: 10px;
-}
-
-ul {
-    list-style: none;
-    text-align: center;
-    text-size-adjust: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -36,18 +38,34 @@ h1 {
 h2 {
     color: #F91724;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 img.cult-of-the-lamb {
     width: 200px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 a {
     font-weight: bold;
-    color: rgb(231, 197, 86);
-    text-decoration: none;
-    
+    color: rgb(250, 248, 244);
+    text-decoration: none;   
+    padding: 10px 10px;
+    margin: auto; 
+    background-color: rgb(231, 197, 86);   
+    display: block;
+    width: 250px;
+}
+
+.border {
+    border-color: white;
+    border: 5px solid rgb(231, 197, 86);
+    margin: 5px;
+}
+
+.homemade-crispy-hash-browns {
+    border: 5px solid white;
+    display: inline-block;
+    width: 265px;
 }
