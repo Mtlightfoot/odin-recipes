@@ -89,3 +89,28 @@ a {
     width: 265px;
     margin-left: 20px;
 }
+
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+}
+
+.container > div {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-size: 16pt;
+    color: #F91724;
+    }
+
+.container > div:nth-child(1) {
+    background-color: #FCFAEF;
+}
+
+.container > div:nth-child(2) {
+    background-color: #ffcc5c;
+}
+
+.container > div:nth-child(3) {
+    background-color: #FCFAEF;
+}
