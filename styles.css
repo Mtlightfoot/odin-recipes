@@ -104,6 +104,7 @@ a {
     padding: 10px;
     text-align: center;
     font-size: 16pt;
+    font-weight: bold;
     color: #F91724;
 }
 
@@ -175,4 +176,16 @@ li {
     border: 10px solid #FCFAEF;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.join-us-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #f5ac0f;
+    margin: 10px;
+}
+
+.join-us {
+    flex: auto;
 }
