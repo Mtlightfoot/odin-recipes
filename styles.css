@@ -41,9 +41,13 @@ h1 {
 }
 
 h2 {
-    color: #F91724;
+    color: #f5ac0f;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img.cult-of-the-lamb {
@@ -55,13 +59,13 @@ img.cult-of-the-lamb {
 a {
     font-weight: bold;
     color: rgb(250, 248, 244);
-    text-decoration: none;   
+    text-decoration: none;
     padding: 10px 10px;
-    margin: auto; 
-    background-color: rgb(231, 197, 86);   
+    margin: auto;
+    background-color: rgb(231, 197, 86);
     display: block;
     width: 250px;
-    height:65px;
+    height: 65px;
 }
 
 .border {
@@ -95,22 +99,80 @@ a {
     display: flex;
 }
 
-.container > div {
+.container>div {
     flex: 1;
     padding: 10px;
     text-align: center;
     font-size: 16pt;
     color: #F91724;
-    }
+}
 
-.container > div:nth-child(1) {
+.container>div:nth-child(1) {
     background-color: #FCFAEF;
 }
 
-.container > div:nth-child(2) {
+.container>div:nth-child(2) {
     background-color: #ffcc5c;
 }
 
-.container > div:nth-child(3) {
+.container>div:nth-child(3) {
     background-color: #FCFAEF;
+}
+
+/* Below this line are the css styles for the recipe pages*/
+
+.recipe-style {
+    border: 5px solid rgb(231, 197, 86);
+    margin: 5px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20pt;
+    color: rgb(250, 248, 244);
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: auto;
+    background-color: rgb(231, 197, 86);
+    display: block;
+    width: 100%;
+    height: 65px;
+}
+
+img.fresh-tomato-soup {
+    border: 10px solid #FCFAEF;
+    width: 50%;
+    margin: 0;
+}
+
+img.homemade-crispy-hash-browns {
+    border: 10px solid #FCFAEF;
+    width: 50%;
+    margin: 0;
+}
+
+img.sazerac-cocktail {
+    border: 10px solid #FCFAEF;
+    width: 50%;
+    margin: 0;
+}
+
+p {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.recipe-card-border {
+    border: 10px solid #FCFAEF;
+    margin-left: 20px;
+    margin-right: 20px;
 }
