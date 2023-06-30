@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Eczar', serif;
 }
 
 img.cooking-fire {
@@ -43,8 +43,7 @@ h1 {
 h2 {
     color: #f5ac0f;
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 25px;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -95,8 +94,8 @@ a {
 }
 
 .container {
-    border: 5px solid #ffcc5c;
     display: flex;
+    padding: 1% 0;
 }
 
 .container>div {
@@ -108,16 +107,24 @@ a {
     color: #F91724;
 }
 
-.container>div:nth-child(1) {
-    background-color: #FCFAEF;
+#header-1 a {
+    color: #F91724;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    background-color: #FCF6DF;
 }
 
-.container>div:nth-child(2) {
-    background-color: #ffcc5c;
-}
-
-.container>div:nth-child(3) {
-    background-color: #FCFAEF;
+#header-2 a {
+    color: #F91724;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    background-color: #FCF6DF;
 }
 
 /* Below this line are the css styles for the recipe pages*/
